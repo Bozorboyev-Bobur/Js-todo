@@ -1,0 +1,101 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(112.58deg, #FF1E1E 0.37%, #9FCE18 98.57%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+    padding: 0 15px;
+    height: 100%;
+    text-align: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 50%;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    border: 0;
+    font-size: 1.2rem;
+    padding: 0 15px;
+    margin-right: 6px;
+}
+
+.dropdown-menu {
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    border: 0;
+    font-size: 1.2rem;
+    padding: 0 15px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+.dropdown-option {
+    font-size: .875rem;
+}
+
+.tasks-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.task {
+    width: 65%;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.task-text {
+    min-width: 75%;
+    min-height: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: start;
+    padding: 12px;
+    font-weight: 600;
+    overflow-wrap: break-word;
+}
+
+.task-button {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0 6px;
+    cursor: pointer;
+}
